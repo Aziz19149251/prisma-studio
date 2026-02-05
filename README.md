@@ -1,33 +1,97 @@
-# 1. Initialize Git
-git init
+# PrismaStudio 🎨
 
-# 2. Add all your files
-git add .
+Instantly transform your favorite images into stunning, exportable color palettes with a premium, designer-grade interface.
 
-# 3. Commit them (Save them to history)
-git commit -m "Initial commit - Premium Light Theme"
+## 📖 About The Project
 
-# 4. Connect to GitHub (Replace URL below with YOUR repo link)
-# You will find this link on the page you just opened on GitHub.
-# It looks like: https://github.com/your-username/prisma-studio.git
-git remote add origin https://github.com/YOUR_USERNAME/prisma-studio.git
+PrismaStudio is a modern web application designed for designers, developers, and creatives. It uses advanced image processing to automatically extract the most dominant and aesthetically pleasing colors from any uploaded photo.
 
-# 5. Push the code
-git branch -M main
-git push -u origin main
+Unlike basic color pickers, PrismaStudio offers an interactive "tactile" experience—you can physically drag color indicators across your image to refine your palette in real-time, all wrapped in a sophisticated "Champagne & Steel Blue" luxury interface.
 
-*(Note: If `git push` asks for a password, a popup window should appear to sign in to GitHub).*
+## ✨ Key Features
 
-### Step 3: Deploy to Vercel (The Magic Part)
-Now that your code is on GitHub, deploying is instant.
+🧠 Smart Quantization: Automatically detects and extracts the 5 most dominant colors upon upload.
 
-1.  Go to **[Vercel.com](https://vercel.com)** and Sign Up (you can continue with GitHub).
-2.  On your Dashboard, click **"Add New..."** -> **"Project"**.
-3.  You will see "Import Git Repository". Find **`prisma-studio`** in the list and click **Import**.
-4.  **Important:** If it asks for "Root Directory", leave it as `./` (default). If your code is inside a subfolder, click "Edit" and select the folder containing `package.json`.
-5.  Click **Deploy**.
+👆 Interactive Selection: Drag and drop circular indicators anywhere on the image to manually tweak your palette.
 
-Wait about 30 seconds... and **BOOM!** 🎊
-Vercel will give you a live URL (e.g., `prisma-studio-alpha.vercel.app`) that you can share with the world.
+💎 Premium UI: A fully responsive, glassmorphism-inspired interface featuring a custom cursor and smooth animations.
 
-Let me know once you've pushed the code!
+## 📤 Professional Export:
+
+One-Click Copy: Copy Hex codes instantly.
+
+CSS Variables: Export the full palette for web development.
+
+JSON Data: Export raw color data for programmatic use.
+
+📱 Fully Responsive: Works seamlessly on desktops, tablets, and mobile devices.
+
+## 🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+Icons: Lucide React
+
+Logic: Canvas API for pixel manipulation & RGB-to-HEX conversion.
+
+## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+Prerequisites
+
+Node.js installed on your computer.
+
+Installation
+
+Clone the repository
+
+git clone [https://github.com/Aziz19149251/prisma-studio.git](https://github.com/Aziz19149251/prisma-studio.git)
+cd prisma-studio
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+
+Open your browser and navigate to the link shown in the terminal (usually http://localhost:5173).
+
+## 🎮 How to Use
+
+Click "Upload Image" or drag and drop an image file onto the workspace.
+
+Watch as the app automatically generates a color palette.
+
+Drag the white circular indicators on the image to change specific colors.
+
+Click the Export button to copy CSS or JSON, or click any color card to copy its Hex code.
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+<p align="center">
+Built with ❤️ by <a href="https://www.google.com/search?q=https://github.com/Aziz19149251">Aziz</a>
+</p>
